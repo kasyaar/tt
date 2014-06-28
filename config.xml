@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/tt" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="xtiPpyNtPI.tt" package="xtiPpyNtPI" required_version="2.2"/>
+    <content src="index.html"/>
+    <icon src="icon.png"/>
+    <name>tt</name>
+</widget>
