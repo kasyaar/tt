@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<title>Wearable UI</title>
+	<link rel="stylesheet"  href="../lib/tau/themes/default/tau.css">
+	<link rel="stylesheet"  href="../css/style.css">
+	<script type="text/javascript" src="../lib/tau/js/tau.js"></script>
+</head>
+<body>
+	<div class="ui-page" id="page_timer">
+		<header class="ui-header">
+			<h2 class="ui-title">Timer</h2>
+		</header>
+		<div class="ui-content">
+			<ul class="ui-listview">
+				<li><a href="#addElementPopup" data-rel="popup">Add...</a></li>
+			</ul>
+        </div>
+        <footer class="ui-footer ui-grid-col-1">
+            <a id="save-timer" class="ui-btn" href="#">Save</a>
+        </footer>
+        <!-- main popup with type selection -->
+        <div id="addElementPopup" class="ui-popup">
+            <div class="ui-popup-header">Add timer element</div>
+            <div class="ui-popup-content" style="height:180px; overflow-y:scroll;">
+                <input id="input_time" type="time" style="display:none" />
+                <ul class="ui-listview">
+                    <li><a href="">Time</a></li>
+                    <li><a href="">Repeat</a></li>
+                    <li><a href="">Wait for ...</a></li>
+                </ul>
+            </div>
+            <div class="ui-popup-footer">
+                <button id="addElementPopup-cancel" class="ui-btn">Cancel</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="../js/popup.js"></script>
+    </div>
+</body>
+</html>
